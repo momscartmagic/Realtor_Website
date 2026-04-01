@@ -156,3 +156,16 @@ ul {
 .delay-1 { animation-delay: 0.1s; }
 .delay-2 { animation-delay: 0.2s; }
 .delay-3 { animation-delay: 0.3s; }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .container {
+    padding: 0 1rem;
+  }
+}

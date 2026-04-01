@@ -96,3 +96,16 @@
   color: #a0a0a0;
   font-size: 0.9rem;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 3rem;
+  }
+  .footer-grid {
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+  .social-links {
+    justify-content: flex-start;
+  }
+}
